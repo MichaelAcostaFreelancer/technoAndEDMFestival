@@ -94,3 +94,4 @@ export function dev () {
 }
 
 export default series( crop,js,css,dev )
+export const build = series(crop, js, css, imagenes)
