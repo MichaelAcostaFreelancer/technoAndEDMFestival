@@ -33,9 +33,9 @@
         </div>
       </div>
       <video autoplay muted loop>
-        <source src="video/dj.mp4" type="video/mp4" />
-        <source src="video/dj.ogv" type="video/ogg" />
-        <source src="video/dj.webm" type="video/webm" />
+        <source src="/video/dj.mp4" type="video/mp4" />
+        <source src="/video/dj.ogv" type="video/ogg" />
+        <source src="/video/dj.webm" type="video/webm" />
       </video>
     </div>
 
@@ -46,7 +46,7 @@
             height="200"
             width="300"
             loading="lazy"
-            src="src/img/imagen_dj.jpg"
+            src="/src/img/imagen_dj.jpg"
             alt="Imagen-dj"
           />
         </picture>
@@ -182,6 +182,6 @@
       <p>Techno & EDM Festival. Todos lo derechos reservados. <?php echo date('Y') ?> &copy;</p>
     </footer>
 
-    <script src="build/js/app.js"></script>
+    <script src="/build/js/app.js"></script>
   </body>
 </html>
